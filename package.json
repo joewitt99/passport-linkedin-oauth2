@@ -1,9 +1,9 @@
 {
-  "name": "passport-linkedin-oauth2",
-  "version": "1.4.1",
+  "name": "@joewitt99/passport-linkedin-oauth2",
+  "version": "1.4.2",
   "description": "Passport for LinkedIn Oauth2",
   "main": "./lib",
-  "repository": "https://github.com/auth0/passport-linkedin-oauth2",
+  "repository": "https://github.com/joewitt99/passport-linkedin-oauth2",
   "scripts": {
     "test": "mocha --require should -t 5000"
   },
@@ -40,7 +40,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "passport-oauth2": "1.x.x",
+    "@joewitt99/passport-dynamicoauth2": "1.x.x",
     "underscore": "^1.7.0"
   }
 }
